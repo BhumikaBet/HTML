@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        #first {
+            border: 1px solid black;
+        }
+        #folder {
+            border: 1px solid black;
+        }
+        #server {
+            border: 1px solid black;
+        }
+        #animated {
+            border: 1px solid black;
+        }
+        #Link {
+            border: 1px solid black;
+        }
+        #float {
+            border: 1px solid black;
+        }
+        #right {
+            border: 1px solid black;
+        }
+        
+        #right-content {
+            border: 1px solid black;
+            
+        }
+        img {
+    margin-left: 2%;
+}
+
+    </style>
+</head>
+<body>
+    <div id="first">
+        <h1>Images</h1>
+    </div>
+    <br>
+    <div id="folder">
+        <h2>Images in another folder</h2>
+        <hr>
+        <img src="media/cod1.jpg" alt="coding" style="height: 150px">
+    </div>
+    <br>
+    <div id="server">
+        <h2>Images on another server</h2>
+        <hr>
+        <img src="https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/main-image.png" alt="logo" style="height: 150px">
+    </div>
+    <br>
+    <div id="animated">
+        <h2>Animated Images</h2>
+        <hr>
+        <img src="media/cod.gif" alt="logo" style="height: 150px">
+    </div>
+    <br>
+    <div id="Link">
+        <h2>Images as Links</h2>
+        <hr>
+        <a href="https://www.freecodecamp.org/news/what-is-coding/"><img src="media/cod2.jpg" alt="Logo" style="height: 150px;"></a>
+    </div>
+    <br>
+    <div id="float">
+        <h2>Floating images (left)</h2>
+        <hr>
+        <p><img src="media/type.gif" alt="type" style="height: 100px;">The image is at the left of the text</p>
+    </div>
+    <br>
+    <div id="right">
+        <h2>Floating images (right)</h2>
+    
+    
+        <!-- Wrap the content in a new div with its border and overflow hidden -->
+        <div id="right-content" style="border: 1px solid black; overflow: hidden;">
+            <p><img src="media/type.gif" alt="type" style="height: 100px; float: right;">The image is at the right of the text</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
